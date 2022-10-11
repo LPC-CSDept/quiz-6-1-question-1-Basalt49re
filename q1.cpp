@@ -25,3 +25,12 @@ int main()
 // ******************************
 // Implement all your functions here
 // ******************************
+
+void getinput (int &n1, int&n2) {
+	cout <<"Swap ints " << endl;
+	cin >> n1 >> n2;
+}
+void getinput (float &f1, float &f2){
+	cout <<"Swap floats " << endl;
+	cin >> f1 >> f2;
+}
