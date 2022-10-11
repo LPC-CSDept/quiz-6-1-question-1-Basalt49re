@@ -6,9 +6,9 @@ using namespace std;
 // Declare Function Prototypes
 //********************
 
-void getinput(int&n1, int&n2);
-void getinput(float&f1, float&f2);
-void swapTwoValues(int&n1, int&n2);
+void getinput(int &n1, int &n2);
+void getinput(float &f1, float &f2);
+void swapTwoValues(int &n1, int &n2);
 void swapTwoValues(float &f1,float &f2);
 int main()
 {
@@ -30,7 +30,7 @@ int main()
 // Implement all your functions here
 // ******************************
 
-void getinput (int &n1, int&n2) {
+void getinput (int &n1, int &n2) {
 	cout <<"Swap ints " << endl;
 	cin >> n1 >> n2;
 }
